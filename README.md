@@ -38,10 +38,14 @@ N1 | BackEnd | 2019 | Semana 2 | Lógica 1 | Variáveis | Condicionais | Loops
 
  ## Variáveis
 
+|Number     |   string          |   boolean                |
+|------------|------------ |---------------------|
+|  1, 2, ..      | 'texto'        |  True ou False       |
+
  ```js
- let 
- const 
- var
+let 
+const
+var
  ```
 ***
  # Condicionais
@@ -49,15 +53,15 @@ N1 | BackEnd | 2019 | Semana 2 | Lógica 1 | Variáveis | Condicionais | Loops
 ## If e Else
 ```js
 if(condição){
-    código a ser executado
+    //sequência de instruções
 } else {
-    código a ser executado
+    //sequência de instruções
 }
 ```
 
 ## Swith 
 
-````js
+```js
 switch (key) {
     case value:
         
@@ -65,6 +69,41 @@ switch (key) {
 
     default:
         break;
+}
+```
+
+# Laço de repetição`
+
+
+## While
+```js
+
+while(condição){
+    //sequência de ações
+}
+
+```
+
+## Do While
+
+```js
+
+do {
+    //sequência de instruções
+}while(condição)
+
+```
+
+## For
+```js
+for(inicialização; condição; incremento){
+    //sequência de instruções    
+}
+
+ex.: 
+
+for(let i = 0; i>10; i++ ){
+    //sequência de instruções    
 }
 ```
 
