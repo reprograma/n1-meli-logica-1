@@ -1,0 +1,13 @@
+2 - Escrever um algoritmo que leia dois valores inteiro distintos e informe qual deles é o maior.
+
+INICIO
+
+    num_01 = numemro_recebido_do_usuario
+    num_02 = numemro_recebido_do_usuario
+
+    se num_01 > num_02
+        retorna num_01 é maior que num_02
+    senao 
+        retorna num_02 é maior que num_01
+
+FIM
