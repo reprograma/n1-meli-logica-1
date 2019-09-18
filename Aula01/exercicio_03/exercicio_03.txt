@@ -1,0 +1,16 @@
+3 - Altere o exercício anterior de forma que ele informe também se os números são iguais.
+
+INICIO
+
+    num_01 = numemro_recebido_do_usuario
+    num_02 = numemro_recebido_do_usuario
+
+    se num_01 > num_02
+        retorna num_01 é maior que num_02
+    senao 
+        se num_01 === num_02
+            retorna os números são iguais
+        senao
+            retorna num_02 é maior que num_01
+
+FIM
