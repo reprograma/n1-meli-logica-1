@@ -1,0 +1,12 @@
+4 - Solicite que o usuário digite um número. Informe então se este número é par ou ímpar.
+
+INICIO
+
+    num = numemro_recebido_do_usuario
+
+    se num % 2 === 0 
+        retorna num é par
+    senão 
+        num é ímpar
+
+FIM
