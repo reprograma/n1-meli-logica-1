@@ -1,0 +1,10 @@
+5 - Crie um programa que recebe um número inteiro e informa se este número é múltiplo de 10.
+
+INICIO
+    num = numemro_recebido_do_usuario
+
+    se num % 10 === 0
+        retorna num é multiplo de 10
+    senão 
+        retorna num não multiplo de 10 
+FIM
