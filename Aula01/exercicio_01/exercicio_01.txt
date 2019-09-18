@@ -1,0 +1,10 @@
+
+1 - Faça um algoritmo que receba um número e mostre uma mensagem caso este número seja maior que 10.
+
+INICIO
+    numero = numemro_recebido_do_usuario
+    se numero > 10 
+        retorna número maior que 10
+    senão 
+        retorna número menor que dez
+FIM
