@@ -106,4 +106,66 @@ for(let i = 0; i>10; i++ ){
     //sequência de instruções    
 }
 ```
+****
+# Métodos JS
 
+## Prompt
+
+O método prompt () exibe uma caixa de diálogo que solicita entrada de um dado ao
+usuário.
+
+
+```js
+
+prompt('texto')
+
+```
+
+## Alert
+
+O método alert() exibe uma caixa de alerta.
+
+
+
+```js
+
+alert('texto')
+
+```
+
+## ParseInt
+
+A função parseInt converte seu primeiro argumento para uma string, analisa, e
+retorna um inteiro ou NaN.
+
+```js
+
+parseInt('2')
+
+```
+
+## Random
+
+Random = um número aleatório.
+
+random() : é uma método JS que forma números aleatórios.
+
+```js
+//CASO VOCÊ NÃO QUEIRA O NÚMERO ZERO
+let x = Math.floor(Math.random()* quantidade_de_numeros_desejado + 1 )
+
+//CASO VOCÊ QUEIRA O NÚMERO ZERO
+let x = Math.floor(Math.random()* quantidade_de_numeros_desejado)
+```
+
+## indexOf
+
+Método que retorna aposição da letra na string.
+
+```js
+
+let nome = 'mayara';
+
+nome.indexOf('y') //Meretorna a posição do Y na string
+
+```
