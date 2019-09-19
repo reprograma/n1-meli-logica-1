@@ -22,13 +22,14 @@ FIM
 const nota1= parseInt(prompt('Digite a primeira nota'))
 const nota2= parseInt(prompt ('Digite a segunda nota'))
 const media = (nota1+nota2)/2
-if(media>=7){
-    alert("Aluno aprovado!")
-}else if (media==10){
+if(media==10){
     alert("Aluno aprovado com distinção")
-} else{
+}else if (media>=7){
+    alert("Aluno aprovado")
+}else { 
     alert("Aluno reprovado")
 }
+
 
     
 
