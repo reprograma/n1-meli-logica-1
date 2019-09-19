@@ -1,0 +1,22 @@
+1 - Escreva um programa que sorteia um número de 1 a 10 e dá duas chances para
+que o usuário acerte.
+
+INICIO
+
+    num = numero_recebido_do_usuario
+    sorte = numero_randomico
+
+    se num == sorte
+        retorna Parabéns, você acertou!
+    senão 
+        num2 = numero_recebido_do_usuario
+        se num2 == sorte
+            retorna Parabéns, você acertou!
+        senão
+            retorna não foi dessa vez
+
+FIM
+
+
+
+
